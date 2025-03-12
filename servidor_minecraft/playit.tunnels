@@ -9,16 +9,16 @@
       "active": true,
       "alloc": {
         "data": {
-          "assigned_domain": "entry-asset.gl.joinmc.link",
-          "assigned_srv": "entry-asset.gl.joinmc.link",
+          "assigned_domain": "received-moderate.gl.joinmc.link",
+          "assigned_srv": "received-moderate.gl.joinmc.link",
           "assignment": {
             "type": "shared-ip"
           },
-          "id": "5ea70daf-3071-4d5c-be2d-a7b6b5151b32",
+          "id": "f4fa4629-0c39-4902-9764-437a2c9c18a4",
           "ip_hostname": "26.ip.gl.ply.gg",
           "ip_type": "both",
-          "port_end": 56590,
-          "port_start": 56589,
+          "port_end": 56621,
+          "port_start": 56620,
           "region": "global",
           "static_ip4": "147.185.221.26",
           "static_ip6": "2602:fbaf:0:1::1a",
@@ -26,16 +26,16 @@
         },
         "status": "allocated"
       },
-      "created_at": "2025-03-12T20:35:45.287883Z",
+      "created_at": "2025-03-12T20:47:29.818833Z",
       "disabled_reason": null,
       "domain": null,
       "expire_notice": null,
       "firewall_id": null,
-      "id": "defd441e-4ab8-41e2-8f07-87df0744bfb8",
+      "id": "16f5ba31-92ce-4e2f-a3b3-856502c8cf67",
       "name": "Minecraft Java",
       "origin": {
         "data": {
-          "agent_id": "30c84e1a-5d30-4d1f-b271-e28475556681",
+          "agent_id": "3a9049c0-4ed1-4214-a1e3-a57ecbbd39d1",
           "agent_name": "El Viajero Perdido",
           "local_ip": "127.0.0.1",
           "local_port": 25565
