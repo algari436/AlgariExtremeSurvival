@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:forest": "2025-03-12 17:32:50 +0000",
+      "minecraft:meadow": "2025-03-12 17:35:54 +0000",
       "minecraft:plains": "2025-03-12 17:33:17 +0000"
     },
     "done": false

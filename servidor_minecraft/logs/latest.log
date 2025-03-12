@@ -105,3 +105,5 @@
 [12Mar2025 17:30:07.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: free -h<--[HERE]
 [12Mar2025 17:32:49.337] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: algari[/127.189.61.138:46525] logged in with entity id 349 at (-9.5, 69.0, -9.5)
 [12Mar2025 17:32:49.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: algari joined the game
+[12Mar2025 17:42:58.811] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: algari lost connection: Disconnected
+[12Mar2025 17:42:58.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: algari left the game

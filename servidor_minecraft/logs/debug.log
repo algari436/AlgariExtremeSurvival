@@ -604,3 +604,9 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [12Mar2025 17:32:49.370] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: algari joined the game
 [12Mar2025 17:34:05.018] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [12Mar2025 17:34:05.041] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[12Mar2025 17:39:04.979] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[12Mar2025 17:39:05.000] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[12Mar2025 17:42:58.811] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: algari lost connection: Disconnected
+[12Mar2025 17:42:58.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: algari left the game
+[12Mar2025 17:44:04.960] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[12Mar2025 17:44:04.976] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
