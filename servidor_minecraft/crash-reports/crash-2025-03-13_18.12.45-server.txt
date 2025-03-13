@@ -1,0 +1,56 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  FutureMC (Future-MC-0.2.21.jar)
+Contact their authors BEFORE contacting forge
+
+// Uh... Did I do that?
+
+Time: 3/13/25 6:12 PM
+Description: Exception in server tick loop
+
+Missing Mods:
+	unknown : need any: have missing
+
+net.minecraftforge.fml.common.MissingModsException: Mod futuremc (Future MC) requires [forgelin]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572)
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 6.8.0-1021-azure
+	Java Version: 1.8.0_442, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 2091955968 bytes (1995 MB) / 2366111744 bytes (2256 MB) up to 15271460864 bytes (14564 MB)
+	JVM Flags: 2 total; -Xms2G -Xmx16G
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 8 mods loaded, 8 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID            | Version      | Source                        | Signature                                |
+	|:----- |:------------- |:------------ |:----------------------------- |:---------------------------------------- |
+	| L     | minecraft     | 1.12.2       | minecraft.jar                 | None                                     |
+	| L     | mcp           | 9.42         | minecraft.jar                 | None                                     |
+	| L     | sampler       | 1.84         | sampler-1.84.jar              | None                                     |
+	| L     | FML           | 8.0.99.99    | forge-1.12.2-14.23.5.2860.jar | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | forge         | 14.23.5.2860 | forge-1.12.2-14.23.5.2860.jar | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| L     | biomesoplenty | 7.0.1.2445   | BiomesOPlenty.jar             | None                                     |
+	| L     | futuremc      | 0.2.6        | Future-MC-0.2.21.jar          | None                                     |
+	| L     | spark         | 1.6.3        | spark-forge.jar               | None                                     |
+
+	Loaded coremods (and transformers): 
+FutureMC (Future-MC-0.2.21.jar)
+  
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

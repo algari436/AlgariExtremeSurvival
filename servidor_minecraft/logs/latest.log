@@ -1,34 +1,37 @@
-[17:47:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[17:47:22] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[17:47:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[17:47:22] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[17:47:22] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_442, running on Linux:amd64:6.8.0-1021-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[17:47:22] [main/INFO] [FML]: Searching /workspaces/AlgariExtremeSurvival/servidor_minecraft/./mods for mods
-[17:47:22] [main/INFO] [FML]: Loading tweaker sampler.core.lw.Tweaker from sampler-1.84.jar
-[17:47:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:47:22] [main/INFO] [LaunchWrapper]: Loading tweak class name sampler.core.lw.Tweaker
-[17:47:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:47:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:47:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:47:22] [main/INFO] [LaunchWrapper]: Calling tweak class sampler.core.lw.Tweaker
-[17:47:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:47:23] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[17:47:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:47:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:47:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:47:23] [main/INFO] [LaunchWrapper]: Loading tweak class name sampler.core.lw.Tweaker$TATweaker1
-[17:47:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:47:23] [main/INFO] [LaunchWrapper]: Calling tweak class sampler.core.lw.Tweaker$TATweaker1
-[17:47:23] [main/INFO] [LaunchWrapper]: Loading tweak class name sampler.core.lw.Tweaker$TATweaker2
-[17:47:23] [main/INFO] [LaunchWrapper]: Calling tweak class sampler.core.lw.Tweaker$TATweaker2
-[17:47:24] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[17:47:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[17:47:26] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[17:47:26] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[17:47:26] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[17:47:26] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[17:47:27] [Server thread/INFO] [FML]: Searching /workspaces/AlgariExtremeSurvival/servidor_minecraft/./mods for mods
-[17:47:27] [Server thread/ERROR] [FML]: Unable to read a class file correctly
+[18:13:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[18:13:11] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[18:13:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[18:13:11] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[18:13:11] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_442, running on Linux:amd64:6.8.0-1021-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[18:13:11] [main/INFO] [FML]: Searching /workspaces/AlgariExtremeSurvival/servidor_minecraft/./mods for mods
+[18:13:11] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Future-MC-0.2.21.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[18:13:11] [main/WARN] [FML]: The coremod FutureMC (thedarkcolour.futuremc.asm.CoreLoader) is not signed!
+[18:13:11] [main/INFO] [FML]: Loading tweaker sampler.core.lw.Tweaker from sampler-1.84.jar
+[18:13:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:13:11] [main/INFO] [LaunchWrapper]: Loading tweak class name sampler.core.lw.Tweaker
+[18:13:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:13:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:13:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:13:11] [main/INFO] [LaunchWrapper]: Calling tweak class sampler.core.lw.Tweaker
+[18:13:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:13:13] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[18:13:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:13:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:13:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:13:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:13:13] [main/INFO] [LaunchWrapper]: Loading tweak class name sampler.core.lw.Tweaker$TATweaker1
+[18:13:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:13:13] [main/INFO] [LaunchWrapper]: Calling tweak class sampler.core.lw.Tweaker$TATweaker1
+[18:13:13] [main/INFO] [LaunchWrapper]: Loading tweak class name sampler.core.lw.Tweaker$TATweaker2
+[18:13:13] [main/INFO] [LaunchWrapper]: Calling tweak class sampler.core.lw.Tweaker$TATweaker2
+[18:13:13] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[18:13:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[18:13:15] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[18:13:15] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[18:13:15] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[18:13:16] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[18:13:16] [Server thread/INFO] [FML]: Searching /workspaces/AlgariExtremeSurvival/servidor_minecraft/./mods for mods
+[18:13:17] [Server thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -46,7 +49,7 @@ java.lang.IllegalArgumentException: null
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) [nz.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
-[17:47:27] [Server thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar ./mods/spark-forge.jar - probably a corrupt zip
+[18:13:17] [Server thread/ERROR] [FML]: There was a problem reading the entry META-INF/versions/9/module-info.class in the jar ./mods/spark-forge.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -68,7 +71,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 12 more
-[17:47:27] [Server thread/WARN] [FML]: Zip file spark-forge.jar failed to read properly, it will be ignored
+[18:13:17] [Server thread/WARN] [FML]: Zip file spark-forge.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -90,96 +93,23 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 12 more
-[17:47:27] [Server thread/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
-[17:47:27] [Server thread/WARN] [FML]: Missing English translation for sampler: assets/sampler/lang/en_us.lang
-[17:47:27] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[17:47:27] [Server thread/WARN] [FML]: Missing English translation for spark: assets/spark/lang/en_us.lang
-[17:47:27] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, sampler, FML, forge, spark] at CLIENT
-[17:47:27] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, sampler, FML, forge, spark] at SERVER
-[17:47:27] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[17:47:27] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[17:47:27] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[17:47:27] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[17:47:27] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[17:47:27] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[17:47:27] [Server thread/INFO] [FML]: Applying holder lookups
-[17:47:27] [Server thread/INFO] [FML]: Holder lookups applied
-[17:47:27] [Server thread/INFO] [FML]: Applying holder lookups
-[17:47:27] [Server thread/INFO] [FML]: Holder lookups applied
-[17:47:27] [Server thread/INFO] [FML]: Applying holder lookups
-[17:47:27] [Server thread/INFO] [FML]: Holder lookups applied
-[17:47:27] [Server thread/INFO] [FML]: Applying holder lookups
-[17:47:27] [Server thread/INFO] [FML]: Holder lookups applied
-[17:47:27] [Server thread/INFO] [FML]: Injecting itemstacks
-[17:47:27] [Server thread/INFO] [FML]: Itemstack injection complete
-[17:47:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[17:47:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[17:47:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[17:47:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[17:47:28] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[17:47:28] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:47:28] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[17:47:28] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:47:28] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:47:28] [Server thread/INFO] [FML]: Applying holder lookups
-[17:47:28] [Server thread/INFO] [FML]: Holder lookups applied
-[17:47:28] [Server thread/INFO] [FML]: Injecting itemstacks
-[17:47:28] [Server thread/INFO] [FML]: Itemstack injection complete
-[17:47:28] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
-[17:47:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[17:47:28] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[17:47:28] [Server thread/INFO] [FML]: Applying holder lookups
-[17:47:28] [Server thread/INFO] [FML]: Holder lookups applied
-[17:47:28] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[17:47:28] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@4fbe142c)
-[17:47:29] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[17:47:29] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@4fbe142c)
-[17:47:29] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@4fbe142c)
-[17:47:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[17:47:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 86%
-[17:47:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (1.773s)! For help, type "help" or "?"
-[17:47:31] [Server thread/INFO] [FML]: Unloading dimension -1
-[17:47:31] [Server thread/INFO] [FML]: Unloading dimension 1
-[17:47:37] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[17:47:37] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,mcp@9.42
-[17:47:37] [Netty Epoll Server IO #1/INFO] [FML]: Attempting connection with missing mods [sampler, spark] at CLIENT
-[17:47:37] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[17:47:37] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: algari[/192.168.193.131:53381] logged in with entity id 249 at (-84.13787192192794, 66.0, 263.363511519966)
-[17:47:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: algari joined the game
-[17:48:20] [spark-forge-async-worker/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [⚡] GC monitor enabled.
-[17:48:27] [spark-forge-async-worker/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [⚡] GC monitor disabled.
-[17:51:13] [spark-forge-async-worker/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [⚡] Initializing a new profiler, please wait...
-[17:51:14] [spark-forge-async-worker/WARN] [spark]: Unable to initialise the async-profiler engine: Permission denied
-[17:51:14] [spark-forge-async-worker/WARN] [spark]: Please see here for more information: https://spark.lucko.me/docs/misc/Using-async-profiler
-[17:51:14] [spark-forge-async-worker/INFO] [STDERR]: [me.lucko.spark.common.sampler.async.AsyncProfilerAccess:checkSupported:82]: java.lang.IllegalStateException: Permission denied
-[17:51:14] [spark-forge-async-worker/INFO] [STDERR]: [me.lucko.spark.common.sampler.async.AsyncProfilerAccess:checkSupported:82]: 	at me.lucko.spark.lib.asyncprofiler.AsyncProfiler.execute0(Native Method)
-[17:51:14] [spark-forge-async-worker/INFO] [STDERR]: [me.lucko.spark.common.sampler.async.AsyncProfilerAccess:checkSupported:82]: 	at me.lucko.spark.lib.asyncprofiler.AsyncProfiler.execute(AsyncProfiler.java:129)
-[17:51:14] [spark-forge-async-worker/INFO] [STDERR]: [me.lucko.spark.common.sampler.async.AsyncProfilerAccess:checkSupported:82]: 	at me.lucko.spark.common.sampler.async.AsyncProfilerAccess.ensureCpuEventSupported(AsyncProfilerAccess.java:132)
-[17:51:14] [spark-forge-async-worker/INFO] [STDERR]: [me.lucko.spark.common.sampler.async.AsyncProfilerAccess:checkSupported:82]: 	at me.lucko.spark.common.sampler.async.AsyncProfilerAccess.<init>(AsyncProfilerAccess.java:57)
-[17:51:14] [spark-forge-async-worker/INFO] [STDERR]: [me.lucko.spark.common.sampler.async.AsyncProfilerAccess:checkSupported:82]: 	at me.lucko.spark.common.sampler.async.AsyncProfilerAccess.<clinit>(AsyncProfilerAccess.java:43)
-[17:51:14] [spark-forge-async-worker/INFO] [STDERR]: [me.lucko.spark.common.sampler.async.AsyncProfilerAccess:checkSupported:82]: 	at me.lucko.spark.common.sampler.SamplerBuilder.start(SamplerBuilder.java:101)
-[17:51:14] [spark-forge-async-worker/INFO] [STDERR]: [me.lucko.spark.common.sampler.async.AsyncProfilerAccess:checkSupported:82]: 	at me.lucko.spark.common.command.modules.SamplerModule.profilerStart(SamplerModule.java:220)
-[17:51:14] [spark-forge-async-worker/INFO] [STDERR]: [me.lucko.spark.common.sampler.async.AsyncProfilerAccess:checkSupported:82]: 	at me.lucko.spark.common.command.modules.SamplerModule.profiler(SamplerModule.java:140)
-[17:51:14] [spark-forge-async-worker/INFO] [STDERR]: [me.lucko.spark.common.sampler.async.AsyncProfilerAccess:checkSupported:82]: 	at me.lucko.spark.common.SparkPlatform.executeCommand0(SparkPlatform.java:303)
-[17:51:14] [spark-forge-async-worker/INFO] [STDERR]: [me.lucko.spark.common.sampler.async.AsyncProfilerAccess:checkSupported:82]: 	at me.lucko.spark.common.SparkPlatform.lambda$executeCommand$2(SparkPlatform.java:257)
-[17:51:14] [spark-forge-async-worker/INFO] [STDERR]: [me.lucko.spark.common.sampler.async.AsyncProfilerAccess:checkSupported:82]: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-[17:51:14] [spark-forge-async-worker/INFO] [STDERR]: [me.lucko.spark.common.sampler.async.AsyncProfilerAccess:checkSupported:82]: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-[17:51:14] [spark-forge-async-worker/INFO] [STDERR]: [me.lucko.spark.common.sampler.async.AsyncProfilerAccess:checkSupported:82]: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
-[17:51:14] [spark-forge-async-worker/INFO] [STDERR]: [me.lucko.spark.common.sampler.async.AsyncProfilerAccess:checkSupported:82]: 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
-[17:51:14] [spark-forge-async-worker/INFO] [STDERR]: [me.lucko.spark.common.sampler.async.AsyncProfilerAccess:checkSupported:82]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-[17:51:14] [spark-forge-async-worker/INFO] [STDERR]: [me.lucko.spark.common.sampler.async.AsyncProfilerAccess:checkSupported:82]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-[17:51:14] [spark-forge-async-worker/INFO] [STDERR]: [me.lucko.spark.common.sampler.async.AsyncProfilerAccess:checkSupported:82]: 	at java.lang.Thread.run(Thread.java:750)
-[17:51:14] [spark-forge-async-worker/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [⚡] Profiler now active! (built-in java)
-[17:51:14] [spark-forge-async-worker/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [⚡] Use '/spark profiler --stop' to stop profiling and upload the results.
-[17:51:27] [spark-forge-async-worker/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [⚡] The active profiler has been stopped! Uploading results...
-[17:51:28] [spark-forge-async-worker/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [⚡] Profiler results:
-[17:51:28] [spark-forge-async-worker/INFO] [net.minecraft.server.dedicated.DedicatedServer]: https://spark.lucko.me/Sdr3VeoOTi
-[17:52:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [algari: Started debug profiling]
-[17:54:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
-[17:54:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[17:54:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[17:54:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[17:54:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
-[17:54:43] [Server thread/INFO] [FML]: Unloading dimension 0
-[17:54:43] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[17:54:43] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[18:13:17] [Server thread/INFO] [FML]: Forge Mod Loader has identified 8 mods to load
+[18:13:17] [Server thread/WARN] [FML]: Missing English translation for sampler: assets/sampler/lang/en_us.lang
+[18:13:17] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[18:13:17] [Server thread/WARN] [FML]: Missing English translation for spark: assets/spark/lang/en_us.lang
+[18:13:17] [Server thread/FATAL] [FML]: net.minecraftforge.fml.common.MissingModsException: Mod futuremc (Future MC) requires [forgelin]
+[18:13:17] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: Encountered an unexpected exception
+net.minecraftforge.fml.common.MissingModsException: Mod futuremc (Future MC) requires [forgelin]
+	at net.minecraftforge.fml.common.Loader.sortModList(Loader.java:266) ~[Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:572) ~[Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:98) ~[FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333) ~[FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125) ~[nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_442]
+[18:13:17] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: This crash report has been saved to: /workspaces/AlgariExtremeSurvival/servidor_minecraft/./crash-reports/crash-2025-03-13_18.13.17-server.txt
+[18:13:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[18:13:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[18:13:17] [Server thread/INFO] [FML]: The state engine was in incorrect state CONSTRUCTING and forced into state SERVER_STOPPED. Errors may have been discarded.
+[18:13:17] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[18:13:17] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
