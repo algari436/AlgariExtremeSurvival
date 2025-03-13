@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "algari",
+      "uniqueId": "bce1c293-7a04-39a4-b7b0-fee08ee32e47"
+    },
+    "time": 1741888288628,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Sdr3VeoOTi"
+    }
+  }
+]
