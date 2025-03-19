@@ -14,7 +14,8 @@ unreviewed-settings:
 connecting-alert: false
 disconnecting-alert: true
 lang: ES
-tooltips: true
+tooltips: false
 login-notification: remind-once
 players-on-death-screen-included: false
 session-reported: true
+token: TlVOMk5VbHtPe2g1TlVWM057bDVQRUJ5UFIvSEpgTklHL0hZS1h2cHdOMnpaVjlpRVlvdlJKZ2hMRGZNU2hnUnM3RE16dW94
