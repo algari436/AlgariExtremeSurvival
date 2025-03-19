@@ -1,0 +1,49 @@
+announce-help-command: true #if true, the help command will be announced to joining players
+odm-messages: 'text' #method of displaying odm messages, can be 'text', 'symbols' or 'none'
+odm-icons: true #show icons for remaining blades, gas, etc. instead of text
+crafting-recipes: true #whether the odm gears should be craft-able
+simpler-restocking: false #if true, gas, blades, and cartridges can be refilled by just clicking the restock stations
+
+training: true #whether training should be available
+force-training: false #if true, players will have to complete training before using the odm
+teach-commands: true #if true, training will teach using commands to spawn tanks and blades. If false, training will assume restock stations are already available and will not teach commands
+broadcast-training-completion-to-all: false #if true, training achievements will be broadcasted to everyone
+broadcast-training-completion-to-ops: false #if true, operators will receive training achievement broadcasts
+broadcast-training-completion-to-self: true #if true, training achievement messages will be sent to the achieving player
+
+reeling-speed: 2.5 #regular reeling speed
+backward-reeling-speed: 4 #reeling speed when facing away from the anchors
+titan-hooked-reeling-speed: 3 #reeling speed when hooked to a Titan
+anchor-speed: 6 #speed of the anchors, values that are too low may render the odm hard to use or glitchy
+ap-gun-bullet-speed: 8 #speed of anti-personnel bullets
+
+sneaking-reeling-multiplier: 0.66 #reeling speed will be multiplied by this if the player is sneaking
+sneaking-gas-multiplier: 0.75 #gas thrust speed will be multiplied by this when sneaking
+weaken-gas-if-not-hooked: false #if true, the vertical force of the gas thrust will be weaker if the player is not anchored
+regenerate-gas: false #if true, gas will slowly replenish automatically - tanks won't have to be replaced
+give-saturation: true #whether to apply saturation to players when reeling, to help heal damages taken while flying
+damage-blades: true #whether to damage blades upon attacking, leading to their breaking
+sideways-gas-only-in-air: true #if true, sideways gas will only be activated if the player is not on ground
+retract-animation: true #should a retract animation be displayed on the head slot?
+
+cancel-fall-damage-if-less-than: 6 #max amount of fall damage that should be cancelled
+fall-damage-multiplier: 0.5 #overall fall damage multiplier when using the odm
+
+throw-sword-damage: 10 #throw attack damage
+sweep-sword-damage: 10 #regular sword attack damage against regular entities (not Titans)
+ap-gun-damage: 4 #damage of a single AP pellet (a single shot fires 8 pellets)
+thrown-swords-kill-titans: false
+
+thunder-spear-damage: 40 #max damage that decreases with distance from the explosion
+thunder-spear-knockback: 1
+thunder-spear-speed: 1
+thunder-spear-recoil: 0.2 #how strongly should the spear push the shooter back when launching
+thunder-spear-shifter-damage-multiplier: 25 #thunder spear damage will be multiplied by this for Shingeki no Craft Shifters
+thunder-spear-griefing: false #whether spears will destroy blocks
+
+pvp: true #whether players should be able to damage each other with ODMs or hook onto each other
+pulling: true #whether players should be able to pull entities with hooks
+
+spawn-titans: false #whether built-in Titans should be able to spawn
+spawn-titans-only-for-adventure-players: false #whether built-in Titans should spawn only around players in adventure mode, or for all players. Redundant if the above is set to false.
+
