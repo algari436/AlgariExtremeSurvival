@@ -13,7 +13,7 @@ unreviewed-settings:
   - in-game-messages
 connecting-alert: false
 disconnecting-alert: true
-lang: EN
+lang: ES
 tooltips: true
 login-notification: remind-once
 players-on-death-screen-included: false
