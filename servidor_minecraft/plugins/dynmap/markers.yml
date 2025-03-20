@@ -1,0 +1,28 @@
+%YAML 1.1
+---
+isSafe: true
+icons: {
+    }
+sets:
+    markers:
+        hide: false
+        circles: {
+            }
+        deficon: default
+        areas: {
+            }
+        label: Markers
+        markers:
+            marker_1:
+                world: world
+                markup: false
+                x: -30.0
+                icon: bank
+                y: 78.0
+                z: -15.0
+                label: ''
+        lines: {
+            }
+        layerprio: 0
+playersets: {
+    }

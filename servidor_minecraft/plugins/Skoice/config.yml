@@ -5,17 +5,17 @@ spectators-included: false
 text-chat: true
 separated-teams: false
 essentialsx-synchronization: true
-channel-visibility: true
+channel-visibility: false
 discordsrv-synchronization: true
-unreviewed-settings:
-  - voice-chat
-  - discord-integration
-  - in-game-messages
+unreviewed-settings: []
 connecting-alert: false
 disconnecting-alert: true
 lang: ES
-tooltips: false
-login-notification: remind-once
+tooltips: true
+login-notification: always-remind
 players-on-death-screen-included: false
 session-reported: true
 token: TlVOMk5VbHtPe2g1TlVWM057bDVQRUJ5UFIvSEpgTklHL0hZS1h2cHdOMnpaVjlpRVlvdlJKZ2hMRGZNU2hnUnM3RE16dW94
+voice-channel-id: '1351944844020289536'
+horizontal-radius: 80
+vertical-radius: 40

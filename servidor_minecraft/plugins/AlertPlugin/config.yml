@@ -1,0 +1,9 @@
+# Configuración del plugin
+# Puedes cambiarlo, y usar variables cómo:
+# config.yml
+# El formato predeterminado es alert-message:' &f[&c&lALERTA&f] %message.alert% ', pero puedes modificar la sección ' &f[&c&lALERTA&f] %message.alert% '
+# a tu gusto. La variable %message.alert% es el mensaje que se escriba en /alert [AQUÍ]. es una variable SÓLO dentro de este archivo, por lo que no
+# intentes usarla en otros plug-ins. Puedes usar Variables de PlaceholderAPI  dentro de el mensaje, y conbinar más de una, como usar el nombre y el dinero de el jugador
+# (PlaceholderAPI es una dependencia de este plug-in, por lo que es obligatorio instalarlo)
+alert-message: '&f[&c&lALERTA&f] %message.alert% '
+

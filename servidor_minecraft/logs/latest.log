@@ -1,12 +1,12 @@
-[15:21:18] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
-[15:21:18] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[15:21:18] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:21:19] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
-[15:21:19] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (5):
- - ODMGear (1.0-SNAPSHOT), OpeNLogin (1.6.7), ProtocolLib (5.3.0-SNAPSHOT-726), Skoice (3.2.4), nLogin (10.4.21)
-[15:21:24] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:21:27] [ServerMain/INFO]: Loaded 1377 recipes
-[15:21:27] [ServerMain/ERROR]: Failed to load function snc:api/get/survey_corps/full
+[16:55:36] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[16:55:36] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[16:55:36] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[16:55:36] [ServerMain/INFO]: [PluginInitializerManager] Initialized 12 plugins
+[16:55:36] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+ - AlertPlugin (1.0), BetterSleeping4 (4.0.2), DiscordSRV (1.29.0), DualHorse (1.5.2), ItemEditor (2.0.3), ODMGear (1.0-SNAPSHOT), OpeNLogin (1.6.7), ProtocolLib (5.3.0-SNAPSHOT-726), RealMines (1.8.6), Skoice (3.2.4), dynmap (3.7-SNAPSHOT-968), nLogin (10.4.21)
+[16:55:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:55:44] [ServerMain/INFO]: Loaded 1377 recipes
+[16:55:44] [ServerMain/ERROR]: Failed to load function snc:api/get/survey_corps/full
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Expected whitespace to end one argument, but found trailing data at position 19: ...zure_bluet<--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -19,7 +19,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4:
 	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:97) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 3 more
-[15:21:27] [ServerMain/ERROR]: Failed to load function snc:api/console_status
+[16:55:44] [ServerMain/ERROR]: Failed to load function snc:api/console_status
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 14: Unknown or incomplete command, see below for error at position 0: <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -32,7 +32,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 14
 	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:97) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 3 more
-[15:21:27] [ServerMain/ERROR]: Failed to load function snc:shifters/mobs/colossal/action/death/decay
+[16:55:44] [ServerMain/ERROR]: Failed to load function snc:shifters/mobs/colossal/action/death/decay
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Float must not be more than 2.0, found 3.0 at position 50: ...^ ^ ^40 2 <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -45,200 +45,118 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:97) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 3 more
-[15:21:27] [ServerMain/INFO]: Loaded 1462 advancements
-[15:21:27] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[15:21:27] [Server thread/INFO]: Loading properties
-[15:21:27] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[15:21:28] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:21:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:21:28] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:21:29] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[15:21:29] [Server thread/INFO]: Default game type: SURVIVAL
-[15:21:29] [Server thread/INFO]: Generating keypair
-[15:21:29] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:21:29] [Server thread/INFO]: Using epoll channel type
-[15:21:29] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:21:29] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[15:21:30] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0-SNAPSHOT-726
-[15:21:30] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.1) has not yet been tested! Proceed with caution.
-[15:21:30] [Server thread/INFO]: [ODMGear] Loading server plugin ODMGear v1.0-SNAPSHOT
-[15:21:30] [Server thread/INFO]: [Skoice] Loading server plugin Skoice v3.2.4
-[15:21:30] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.21
-[15:21:31] [Server thread/INFO]: [OpeNLogin] Loading server plugin OpeNLogin v1.6.7
-[15:21:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:21:31] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0-SNAPSHOT-726
-[15:21:31] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.21
-[15:21:32] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.84s)
-[15:21:32] [Server thread/INFO]:           __             _       
-[15:21:32] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
-[15:21:32] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
-[15:21:32] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
-[15:21:32] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
-[15:21:32] [Server thread/INFO]:                   |___/            
-[15:21:32] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.21
-[15:21:32] [Server thread/INFO]:  
-[15:21:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:21:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:21:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:21:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:21:33] [Server thread/INFO]: Preparing level "world"
-[15:21:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:21:35] [Server thread/INFO]: Time elapsed: 1388 ms
-[15:21:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:21:35] [Server thread/INFO]: Time elapsed: 215 ms
-[15:21:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:21:35] [Server thread/INFO]: Time elapsed: 119 ms
-[15:21:35] [Server thread/INFO]: [ODMGear] Enabling ODMGear v1.0-SNAPSHOT
-[15:21:36] [Server thread/INFO]: [Skoice] Enabling Skoice v3.2.4
-[15:21:36] [Server thread/INFO]: [Skoice] Plugin enabled.
-[15:21:38] [Server thread/WARN]: [Skoice] Token not set. Join your Minecraft server to set up Skoice.
-[15:21:38] [Server thread/INFO]: [OpeNLogin] Enabling OpeNLogin v1.6.7
-[15:21:38] [Server thread/INFO]: [OpeNLogin] nLogin was detected, turning off plugin...
-[15:21:38] [Server thread/INFO]: [OpeNLogin] Disabling OpeNLogin v1.6.7
-[15:21:38] [Server thread/INFO]: [spark] Starting background profiler...
-[15:21:39] [Server thread/INFO]: Done preparing level "world" (5.826s)
-[15:21:39] [Server thread/INFO]: Running delayed init tasks
-[15:21:39] [Server thread/INFO]: Done (21.492s)! For help, type "help"
-[15:21:39] [Server thread/INFO]: Timings Reset
-[15:21:40] [Server thread/INFO]: [ProtocolLib] The updater found an update: 5.3.0 (Running 5.3.0-SNAPSHOT-726). Download at https://www.spigotmc.org/resources/protocollib.1997/
-[15:22:04] [Server thread/INFO]: Named entity ZombieVillager['6m Titan (Valentina)'/4, uuid='87fe212d-5ceb-4d97-a6da-3d406955c97b', l='ServerLevel[world]', x=24.00, y=-136.00, z=-16.23, cpos=[1, -2], tl=1635, v=true] died: 6m Titan (Valentina) was killed
-[15:23:17] [User Authenticator #0/INFO]: UUID of player algari is bce1c293-7a04-39a4-b7b0-fee08ee32e47
-[15:23:20] [Server thread/INFO]: algari[/127.25.19.112:59513] logged in with entity id 36 at ([world]37.69853607211967, 124.0, -5.888172835242072)
-[15:23:34] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user algari has successfully logged in.
-[15:23:47] [Server thread/INFO]: algari issued server command: /skoice language es
-[15:23:47] [Craft Scheduler Thread - 6 - Skoice/WARN]: [Skoice] Token no establecido. Unete a tu servidor de Minecraft para configurar Skoice.
-[15:23:51] [Server thread/INFO]: algari issued server command: /skoice configure
-[15:23:59] [Server thread/INFO]: algari issued server command: /gamemode creative
-[15:23:59] [Server thread/INFO]: [algari: Set own game mode to Creative Mode]
-[15:24:24] [Server thread/INFO]: Villager Villager['Villager'/345, uuid='a7eef958-b148-4b03-b6e1-a375bde61a83', l='ServerLevel[world]', x=-180.28, y=-190.00, z=-287.37, cpos=[-12, -18], tl=0, v=true] died, message: 'Villager was killed'
-[15:24:27] [Server thread/INFO]: Villager Villager['Villager'/372, uuid='499f56db-9632-4e58-a165-3571656cf428', l='ServerLevel[world]', x=-169.93, y=-187.00, z=-293.37, cpos=[-11, -19], tl=0, v=true] died, message: 'Villager was killed'
-[15:24:28] [Server thread/INFO]: Villager Villager['Villager'/408, uuid='f6a5dc66-e575-4d64-9a96-9f0100820952', l='ServerLevel[world]', x=-180.28, y=-175.00, z=-307.37, cpos=[-12, -20], tl=0, v=true] died, message: 'Villager was killed'
-[15:24:28] [Server thread/INFO]: Villager Villager['Villager'/403, uuid='346b7e34-4da2-41f2-b2a5-c12c545572a4', l='ServerLevel[world]', x=-190.28, y=-183.00, z=-305.37, cpos=[-12, -20], tl=0, v=true] died, message: 'Villager was killed'
-[15:24:28] [Server thread/INFO]: Villager Villager['Villager'/405, uuid='4a894538-d749-4606-b03d-50b7e1e3a87f', l='ServerLevel[world]', x=-189.37, y=-183.00, z=-310.72, cpos=[-12, -20], tl=0, v=true] died, message: 'Villager was killed'
-[15:24:28] [Server thread/INFO]: Villager Villager['Villager'/407, uuid='a817e72e-b18e-44a1-8bd2-f8426879245e', l='ServerLevel[world]', x=-184.72, y=-183.00, z=-310.63, cpos=[-12, -20], tl=0, v=true] died, message: 'Villager was killed'
-[15:24:30] [Server thread/INFO]: Villager Villager['Villager'/431, uuid='bdbbc519-3b13-4cd2-a1ff-833524e6b666', l='ServerLevel[world]', x=-168.72, y=-177.00, z=-334.63, cpos=[-11, -21], tl=0, v=true] died, message: 'Villager was killed'
-[15:24:33] [Server thread/INFO]: algari issued server command: /odm give algari gear
-[15:24:33] [Server thread/INFO]: algari has made the advancement [Getting an Upgrade]
-[15:24:38] [Server thread/INFO]: algari has made the advancement [Monster Hunter]
-[15:24:38] [Server thread/INFO]: Named entity ZombieVillager['4m Titan (Zwei)'/125, uuid='37844036-18fd-41af-8fea-063e5d4f695d', l='ServerLevel[world]', x=37.62, y=-137.00, z=-5.53, cpos=[2, -1], tl=729, v=true] died: 4m Titan (Zwei) was killed while fighting algari
-[15:24:39] [Server thread/INFO]: Named entity ZombieVillager['12m Titan (Michelle)'/121, uuid='f8bbef98-c44c-4068-b782-50b43a0f4371', l='ServerLevel[world]', x=39.20, y=-138.00, z=-1.20, cpos=[2, -1], tl=729, v=true] died: 12m Titan (Michelle) was killed while fighting algari
-[15:24:55] [Server thread/INFO]: algari has made the advancement [Welcome to the Village!]
-[15:25:46] [Server thread/INFO]: algari issued server command: /skoice link
-[15:25:54] [Server thread/INFO]: algari issued server command: /skoice token
-[15:27:13] [Server thread/INFO]: algari issued server command: /skoice token MTM1MTkzNzg4MTU2Mzk4ODAxOQ.GI_MHF.GXJWuovM1yYU8hDXnuQIfgKCeLRgfQr6CLytnw
-[15:27:13] [Server thread/INFO]: [Skoice] Tu bot está intentando conectarse.
-[15:27:15] [Craft Scheduler Thread - 10 - Skoice/INFO]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.api.JDA] Login Successful!
-[15:27:16] [JDA MainWS-ReadThread/INFO]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
-[15:27:16] [JDA MainWS-ReadThread/INFO]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.api.JDA] Finished Loading!
-[15:27:16] [ForkJoinPool.commonPool-worker-3/WARN]: [Skoice] Token no establecido. Unete a tu servidor de Minecraft para configurar Skoice.
-[15:27:16] [ForkJoinPool.commonPool-worker-3/WARN]: [Skoice] Tu bot no está configurado correctamente. Ejecuta el comando nuevamente una vez que hayas desmarcado "Bot Público" y hecho clic en "Guardar cambios" en esta página: https://discord.com/developers/applications/1351937881563988019/bot.
-[15:27:42] [Server thread/INFO]: algari issued server command: /skoice token MTM1MTkzNzg4MTU2Mzk4ODAxOQ.GI_MHF.GXJWuovM1yYU8hDXnuQIfgKCeLRgfQr6CLytnw
-[15:27:42] [Server thread/INFO]: [Skoice] Tu bot está intentando conectarse.
-[15:27:42] [Craft Scheduler Thread - 11 - Skoice/INFO]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.api.JDA] Login Successful!
-[15:27:42] [JDA MainWS-ReadThread/INFO]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
-[15:27:42] [JDA MainWS-ReadThread/INFO]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.api.JDA] Finished Loading!
-[15:27:43] [ForkJoinPool.commonPool-worker-3/WARN]: [Skoice] Token no establecido. Unete a tu servidor de Minecraft para configurar Skoice.
-[15:27:43] [ForkJoinPool.commonPool-worker-3/WARN]: [Skoice] Tu bot no está configurado correctamente. Ejecuta el comando nuevamente una vez que hayas desmarcado "Bot Público" y hecho clic en "Guardar cambios" en esta página: https://discord.com/developers/applications/1351937881563988019/bot.
-[15:32:04] [Server thread/INFO]: algari issued server command: /skoice tooltips
-[15:32:16] [Server thread/INFO]: algari issued server command: /skoice configure
-[15:32:35] [Server thread/INFO]: Villager Villager['Hideki'/417, uuid='d761e56e-4e82-413d-b5d1-f7ffd19ba0c9', l='ServerLevel[world]', x=-200.05, y=65.00, z=-297.76, cpos=[-13, -19], tl=9446, v=true] died, message: 'Hideki was slain by 15m Titan (Vladlen)'
-[15:32:35] [Server thread/INFO]: Named entity Villager['Hideki'/417, uuid='d761e56e-4e82-413d-b5d1-f7ffd19ba0c9', l='ServerLevel[world]', x=-200.05, y=65.00, z=-297.76, cpos=[-13, -19], tl=9446, v=true] died: Hideki was slain by 15m Titan (Vladlen)
-[15:32:38] [Server thread/INFO]: algari issued server command: /skoice token MTM1MTkzNzg4MTU2Mzk4ODAxOQ.GI_MHF.GXJWuovM1yYU8hDXnuQIfgKCeLRgfQr6CLytnw
-[15:32:38] [Server thread/INFO]: [Skoice] Tu bot está intentando conectarse.
-[15:32:38] [Craft Scheduler Thread - 12 - Skoice/INFO]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.api.JDA] Login Successful!
-[15:32:38] [JDA MainWS-ReadThread/INFO]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
-[15:32:39] [JDA MainWS-ReadThread/INFO]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.api.JDA] Finished Loading!
-[15:32:39] [ForkJoinPool.commonPool-worker-4/WARN]: [Skoice] Token no establecido. Unete a tu servidor de Minecraft para configurar Skoice.
-[15:32:39] [ForkJoinPool.commonPool-worker-4/WARN]: [Skoice] Tu bot no está configurado correctamente. Ejecuta el comando nuevamente una vez que hayas desmarcado "Bot Público" y hecho clic en "Guardar cambios" en esta página: https://discord.com/developers/applications/1351937881563988019/bot.
-[15:36:48] [Server thread/INFO]: algari issued server command: /skoice token MTM1MTkzNzg4MTU2Mzk4ODAxOQ.GI_MHF.GXJWuovM1yYU8hDXnuQIfgKCeLRgfQr6CLytnw
-[15:36:48] [Server thread/INFO]: [Skoice] Tu bot está intentando conectarse.
-[15:36:48] [Craft Scheduler Thread - 13 - Skoice/INFO]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.api.JDA] Login Successful!
-[15:36:48] [JDA MainWS-ReadThread/INFO]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
-[15:36:48] [JDA MainWS-ReadThread/INFO]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.api.JDA] Finished Loading!
-[15:36:48] [ForkJoinPool.commonPool-worker-5/INFO]: [Skoice] Tu bot está conectado.
-[15:36:49] [ForkJoinPool.commonPool-worker-5/WARN]: [Skoice] Canal de voz no establecido. Escribe "/configure" en tu servidor de Discord para configurar Skoice.
-[15:37:26] [Server thread/INFO]: Named entity ZombieVillager['15m Titan (Vladlen)'/1227, uuid='fdcdc93c-d22c-4d06-9599-de46dc579fb9', l='ServerLevel[world]', x=-176.96, y=-190.50, z=-284.69, cpos=[-12, -18], tl=12439, v=true] died: 15m Titan (Vladlen) was killed while fighting Bianca
-[15:37:26] [Server thread/INFO]: Villager Villager['Villager'/1698, uuid='47e0e452-9f3c-48e2-8abe-935a9ec43c1b', l='ServerLevel[world]', x=-178.47, y=-185.50, z=-287.24, cpos=[-12, -18], tl=1, v=true] died, message: 'Villager was killed'
-[15:37:26] [Server thread/INFO]: Villager Villager['Bobby Whitewood'/347, uuid='aa843008-b943-4451-b48f-aad726667d02', l='ServerLevel[world]', x=-178.53, y=65.50, z=-287.46, cpos=[-12, -18], tl=15485, v=true] died, message: 'Bobby Whitewood was killed'
-[15:37:26] [Server thread/INFO]: Named entity Villager['Bobby Whitewood'/347, uuid='aa843008-b943-4451-b48f-aad726667d02', l='ServerLevel[world]', x=-178.53, y=65.50, z=-287.46, cpos=[-12, -18], tl=15485, v=true] died: Bobby Whitewood was killed
-[15:38:07] [Server thread/INFO]: algari issued server command: /function snc:api/config
-[15:38:07] [Server thread/INFO]: [algari: Running function snc:api/config]
-[15:38:10] [Server thread/INFO]: algari issued server command: /trigger manual set -1000
-[15:38:10] [Server thread/INFO]: [algari: Triggered [manual] (set value to -1000)]
-[15:38:13] [Server thread/INFO]: algari issued server command: /trigger manual set -6
-[15:38:13] [Server thread/INFO]: [algari: Triggered [manual] (set value to -6)]
-[15:38:14] [Server thread/INFO]: algari issued server command: /trigger manual set -5
-[15:38:14] [Server thread/INFO]: [algari: Triggered [manual] (set value to -5)]
-[15:38:15] [Server thread/INFO]: algari issued server command: /trigger manual set -6
-[15:38:15] [Server thread/INFO]: [algari: Triggered [manual] (set value to -6)]
-[15:38:18] [Server thread/INFO]: algari issued server command: /trigger manual set -1001
-[15:38:18] [Server thread/INFO]: [algari: Triggered [manual] (set value to -1001)]
-[15:38:19] [Server thread/INFO]: algari issued server command: /trigger manual set -1002
-[15:38:19] [Server thread/INFO]: [algari: Triggered [manual] (set value to -1002)]
-[15:38:32] [Server thread/INFO]: algari issued server command: /trigger manual set -27
-[15:38:32] [Server thread/INFO]: [algari: Triggered [manual] (set value to -27)]
-[15:38:38] [Server thread/INFO]: Named entity ZombieVillager['9m Titan (Allan)'/1717, uuid='baba2d1a-a929-4096-8597-ffa741d7d429', l='ServerLevel[world]', x=-151.01, y=-182.00, z=-303.11, cpos=[-10, -19], tl=1180, v=true] died: 9m Titan (Allan) was killed while fighting Giuseppe
-[15:38:38] [Server thread/INFO]: Villager Villager['Giuseppe'/1702, uuid='eefedf20-57db-4b85-b9db-2073635c7f27', l='ServerLevel[world]', x=-149.30, y=74.64, z=-303.63, cpos=[-10, -19], tl=1441, v=true] died, message: 'Giuseppe was killed'
-[15:38:38] [Server thread/INFO]: Named entity Villager['Giuseppe'/1702, uuid='eefedf20-57db-4b85-b9db-2073635c7f27', l='ServerLevel[world]', x=-149.30, y=74.64, z=-303.63, cpos=[-10, -19], tl=1441, v=true] died: Giuseppe was killed
-[15:38:38] [Server thread/INFO]: Villager Villager['Villager'/1922, uuid='4bf21c28-b6b7-45f4-afdb-d6c512d0cff9', l='ServerLevel[world]', x=-149.37, y=-176.64, z=-303.61, cpos=[-10, -19], tl=1, v=true] died, message: 'Villager was killed'
-[15:38:49] [Server thread/INFO]: algari issued server command: /trigger manual set -1004
-[15:38:49] [Server thread/INFO]: [algari: Triggered [manual] (set value to -1004)]
-[15:38:51] [Server thread/INFO]: algari issued server command: /trigger manual set -35
-[15:38:51] [Server thread/INFO]: [algari: Triggered [manual] (set value to -35)]
-[15:38:57] [Server thread/INFO]: algari issued server command: /trigger manual set -24
-[15:38:57] [Server thread/INFO]: [algari: Triggered [manual] (set value to -24)]
-[15:39:01] [Server thread/INFO]: algari issued server command: /trigger manual set -23
-[15:39:01] [Server thread/INFO]: [algari: Triggered [manual] (set value to -23)]
-[15:39:06] [Server thread/INFO]: algari issued server command: /trigger manual set -1006
-[15:39:06] [Server thread/INFO]: [algari: Triggered [manual] (set value to -1006)]
-[15:39:10] [Server thread/INFO]: algari issued server command: /trigger manual set -2
-[15:39:10] [Server thread/INFO]: [algari: Triggered [manual] (set value to -2)]
-[15:39:33] [Server thread/INFO]: algari issued server command: /trigger manual set -1008
-[15:39:33] [Server thread/INFO]: [algari: Triggered [manual] (set value to -1008)]
-[15:39:34] [Server thread/INFO]: algari issued server command: /trigger manual set -15
-[15:39:34] [Server thread/INFO]: [algari: Triggered [manual] (set value to -15)]
-[15:39:41] [Server thread/INFO]: algari issued server command: /trigger manual set -100
-[15:39:41] [Server thread/INFO]: [algari: Triggered [manual] (set value to -100)]
-[15:39:42] [Server thread/INFO]: Loaded 1377 recipes
-[15:39:42] [Server thread/ERROR]: Failed to load function snc:api/get/survey_corps/full
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Expected whitespace to end one argument, but found trailing data at position 19: ...zure_bluet<--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+[16:55:44] [ServerMain/INFO]: Loaded 1462 advancements
+[16:55:45] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[16:55:45] [Server thread/INFO]: Loading properties
+[16:55:45] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[16:55:45] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[16:55:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:55:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:55:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[16:55:46] [Server thread/INFO]: Default game type: SURVIVAL
+[16:55:46] [Server thread/INFO]: Generating keypair
+[16:55:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:55:47] [Server thread/INFO]: Using epoll channel type
+[16:55:47] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:55:47] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[16:55:47] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/RealMines (2).jar' in 'plugins/.paper-remapped'
+org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [WorldEdit]. Please download and install these plugins to run 'RealMines'.
+	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.entrypoint.LaunchEntryPointHandler.enter(LaunchEntryPointHandler.java:40) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.CraftServer.loadPlugins(CraftServer.java:546) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:292) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Expected whitespace to end one argument, but found trailing data at position 19: ...zure_bluet<--[HERE]
-	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:97) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 3 more
-[15:39:42] [Server thread/ERROR]: Failed to load function snc:api/console_status
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 14: Unknown or incomplete command, see below for error at position 0: <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 14: Unknown or incomplete command, see below for error at position 0: <--[HERE]
-	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:97) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 3 more
-[15:39:42] [Server thread/ERROR]: Failed to load function snc:shifters/mobs/colossal/action/death/decay
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Float must not be more than 2.0, found 3.0 at position 50: ...^ ^ ^40 2 <--[HERE]
-	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Float must not be more than 2.0, found 3.0 at position 50: ...^ ^ ^40 2 <--[HERE]
-	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:97) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 3 more
-[15:39:42] [Server thread/INFO]: Loaded 1462 advancements
-[15:39:47] [Async Chat Thread - #0/INFO]: [Not Secure] <algari> Me llaman
-[15:41:05] [Server thread/INFO]: algari issued server command: /skoice configure
+[16:55:49] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-SNAPSHOT-968
+[16:55:49] [Server thread/INFO]: [dynmap] version=1.21.1-57-b483da4 (MC: 1.21.1)
+[16:55:49] [Server thread/INFO]: [dynmap] Mod Support API available
+[16:55:49] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0-SNAPSHOT-726
+[16:55:49] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.1) has not yet been tested! Proceed with caution.
+[16:55:49] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.29.0
+[16:55:49] [Server thread/INFO]: [ItemEditor] Loading server plugin ItemEditor v2.0.3
+[16:55:49] [Server thread/INFO]: [ODMGear] Loading server plugin ODMGear v1.0-SNAPSHOT
+[16:55:49] [Server thread/INFO]: [AlertPlugin] Loading server plugin AlertPlugin v1.0
+[16:55:49] [Server thread/INFO]: [Skoice] Loading server plugin Skoice v3.2.4
+[16:55:49] [Server thread/INFO]: [BetterSleeping4] Loading server plugin BetterSleeping4 v4.0.2
+[16:55:49] [Server thread/INFO]: [nLogin] Loading server plugin nLogin v10.4.21
+[16:55:50] [Server thread/INFO]: [OpeNLogin] Loading server plugin OpeNLogin v1.6.7
+[16:55:50] [Server thread/INFO]: [DualHorse] Loading server plugin DualHorse v1.5.2
+[16:55:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:55:50] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0-SNAPSHOT-726
+[16:55:50] [Server thread/INFO]: [nLogin] Enabling nLogin v10.4.21
+[16:55:50] [Server thread/INFO]: [nLogin] Successful plugin core start (took 0.61s)
+[16:55:50] [Server thread/INFO]:           __             _       
+[16:55:50] [Server thread/INFO]:   _ __   / /  ___   __ _(_)_ __  
+[16:55:50] [Server thread/INFO]:  | '_ \ / /  / _ \ / _` | | '_ \ 
+[16:55:50] [Server thread/INFO]:  | | | / /__| (_) | (_| | | | | |
+[16:55:50] [Server thread/INFO]:  |_| |_\____/\___/ \__, |_|_| |_|
+[16:55:50] [Server thread/INFO]:                   |___/            
+[16:55:50] [Server thread/INFO]:  By: www.nickuc.com - V 10.4.21
+[16:55:50] [Server thread/INFO]:  
+[16:55:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:55:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:55:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:55:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:55:51] [Server thread/INFO]: Preparing level "world"
+[16:55:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:55:53] [Server thread/INFO]: Time elapsed: 1484 ms
+[16:55:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:55:53] [Server thread/INFO]: Time elapsed: 263 ms
+[16:55:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:55:54] [Server thread/INFO]: Time elapsed: 121 ms
+[16:55:54] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-SNAPSHOT-968
+[16:55:54] [Server thread/INFO]: [dynmap] Added 22 custom biome mappings
+[16:55:54] [Server thread/INFO]: [dynmap] Using Bukkit Permissions (superperms) for access control
+[16:55:54] [Server thread/INFO]: [dynmap] Web interface permissions only available for online users
+[16:55:55] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[16:55:57] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[16:55:57] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[16:55:57] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[16:55:57] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[16:55:58] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[16:55:58] [Server thread/INFO]: [dynmap] Web server started on address 0.0.0.0:8123
+[16:55:59] [Server thread/INFO]: [dynmap] version 3.7-SNAPSHOT-968 is enabled - core version 3.7-SNAPSHOT-985
+[16:55:59] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[16:55:59] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[16:55:59] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[16:55:59] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[16:55:59] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'world'.
+[16:55:59] [Server thread/INFO]: [dynmap] Loaded 46638 pending tile renders for world 'world'
+[16:55:59] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_nether'.
+[16:55:59] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'world_the_end'.
+[16:55:59] [Server thread/INFO]: [dynmap] Enabled
+[16:55:59] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.29.0
+[16:55:59] [Server thread/INFO]: [ItemEditor] Enabling ItemEditor v2.0.3
+[16:55:59] [Server thread/INFO]: [ItemEditor] Detected minecraft 1.21.1
+[16:55:59] [Server thread/INFO]: [ItemEditor] Reloading items.
+[16:55:59] [Server thread/INFO]: [ItemEditor] Loaded 0 items from storage.
+[16:55:59] [Server thread/INFO]: [ODMGear] Enabling ODMGear v1.0-SNAPSHOT
+[16:55:59] [pool-18-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (9d4734818ab27069d76f264a4cda74a699806770)
+[16:55:59] [DiscordSRV - Initialization/ERROR]: [DiscordSRV] No bot token has been set in the config; a bot token is required to connect to Discord.
+[16:55:59] [Server thread/INFO]: [AlertPlugin] Enabling AlertPlugin v1.0
+[16:55:59] [Server thread/INFO]: Gracias por usar mi Plugin ~ C0RR3A_D4
+[16:55:59] [Server thread/INFO]: [Skoice] Enabling Skoice v3.2.4
+[16:56:00] [Server thread/INFO]: [Skoice] Plug-in habilitado.
+[16:56:01] [Server thread/INFO]: [Skoice] Tu bot está intentando conectarse.
+[16:56:02] [Server thread/INFO]: [DiscordSRV] API listener net.clementraynaud.skoice.spigot.hooks.discordsrv.DiscordSRVHookImpl subscribed (3 methods)
+[16:56:02] [Server thread/INFO]: [BetterSleeping4] Enabling BetterSleeping4 v4.0.2
+[16:56:03] [Server thread/INFO]: [OpeNLogin] Enabling OpeNLogin v1.6.7
+[16:56:03] [Server thread/INFO]: [OpeNLogin] nLogin was detected, turning off plugin...
+[16:56:03] [Server thread/INFO]: [OpeNLogin] Disabling OpeNLogin v1.6.7
+[16:56:03] [Server thread/INFO]: [DualHorse] Enabling DualHorse v1.5.2
+[16:56:03] [Server thread/INFO]: [DualHorse] DualHorse Plugin - made by GeeVeeDee
+[16:56:03] [Server thread/INFO]: [spark] Starting background profiler...
+[16:56:03] [Server thread/INFO]: Done preparing level "world" (11.657s)
+[16:56:03] [Server thread/INFO]: Running delayed init tasks
+[16:56:03] [Server thread/INFO]: [DiscordSRV] Disabling DiscordSRV v1.29.0
+[16:56:03] [Server thread/INFO]: Done (28.440s)! For help, type "help"
+[16:56:03] [Server thread/INFO]: Timings Reset
+[16:56:03] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[16:56:04] [Server thread/INFO]: [ProtocolLib] The updater found an update: 5.3.0 (Running 5.3.0-SNAPSHOT-726). Download at https://www.spigotmc.org/resources/protocollib.1997/
+[16:56:07] [Craft Scheduler Thread - 2 - Skoice/INFO]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.api.JDA] Login Successful!
+[16:56:07] [JDA MainWS-ReadThread/INFO]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
+[16:56:08] [JDA MainWS-ReadThread/INFO]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.api.JDA] Finished Loading!
+[16:56:08] [ForkJoinPool.commonPool-worker-1/INFO]: [Skoice] Tu bot está conectado.
+[16:56:09] [ForkJoinPool.commonPool-worker-1/INFO]: [Skoice] Skoice está configurado. Escribe "/link" en tu servidor de Discord para vincular tu cuenta de Discord con Minecraft. Los jugadores deben vincular sus cuentas para usar el chat de voz de proximidad.
