@@ -160,3 +160,22 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 [16:56:08] [JDA MainWS-ReadThread/INFO]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.api.JDA] Finished Loading!
 [16:56:08] [ForkJoinPool.commonPool-worker-1/INFO]: [Skoice] Tu bot está conectado.
 [16:56:09] [ForkJoinPool.commonPool-worker-1/INFO]: [Skoice] Skoice está configurado. Escribe "/link" en tu servidor de Discord para vincular tu cuenta de Discord con Minecraft. Los jugadores deben vincular sus cuentas para usar el chat de voz de proximidad.
+[17:07:41] [User Authenticator #0/INFO]: UUID of player algari is bce1c293-7a04-39a4-b7b0-fee08ee32e47
+[17:07:45] [Server thread/INFO]: algari[/127.25.19.112:59307] logged in with entity id 33 at ([world]993.7497402164086, 60.708654759914936, 610.3516934244345)
+[17:08:15] [Folia Async Scheduler Thread #3/INFO]: [nLogin] The user algari has successfully logged in.
+[17:08:26] [Server thread/INFO]: algari issued server command: /gamemode creative
+[17:08:26] [Server thread/INFO]: [Sld. algari: Set own game mode to Creative Mode]
+[17:08:30] [Server thread/INFO]: algari issued server command: /weather clear
+[17:08:30] [Server thread/INFO]: [Sld. algari: Set the weather to clear]
+[17:09:00] [Server thread/INFO]: algari issued server command: /gamemode survival
+[17:09:00] [Server thread/INFO]: [Sld. algari: Set own game mode to Survival Mode]
+[17:09:06] [Server thread/INFO]: algari issued server command: /gamemode creative
+[17:09:06] [Server thread/INFO]: [Sld. algari: Set own game mode to Creative Mode]
+[17:09:34] [JDA MainWS-ReadThread/WARN]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.internal.requests.WebSocketClient] Got disconnected from WebSocket (Code 1000). Appending to reconnect queue
+[17:09:36] [JDA MainWS-ReadThread/INFO]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
+[17:09:36] [JDA MainWS-WriteThread/ERROR]: [net.clementraynaud.skoice.libraries.net.dv8tion.jda.internal.requests.WebSocketClient] WebSocket connection was closed and cannot be recovered due to identification issues
+CloseCode[AUTHENTICATION_FAILED](code=4004, meaning=The account token sent with your identify payload is incorrect.)
+[17:11:28] [Server thread/WARN]: algari moved too quickly! -6.565548355499004,1.3313606694879212,14.742789281098908
+[17:11:45] [Server thread/INFO]: Added 1 to [Titan_Kill_Count] for Sld. algari (now 7)
+[17:11:45] [Server thread/INFO]: Named entity ZombieVillager['12m Titan (Michelle)'/621, uuid='63eb3213-2ba8-4660-857b-525f5dfc689a', l='ServerLevel[world]', x=1115.51, y=-187.00, z=789.50, cpos=[69, 49], tl=2820, v=true] died: 12m Titan (Michelle) was killed while fighting Sld. algari
+[17:12:00] [Server thread/INFO]: algari lost connection: Disconnected
